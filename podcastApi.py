@@ -4,8 +4,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from utils import get_podcast_id_from_link
 
 def get_episodes_from_podcast(podcast_link):
-    client_id = '814dad662351483284f9ecb1f9c622ac'
-    client_secret = '1e6238a1125f4bfda146f8c944d43146'
+    client_id = 'id'
+    client_secret = 'secret'
     credentials = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
     sp = spotipy.Spotify(client_credentials_manager=credentials)
 
